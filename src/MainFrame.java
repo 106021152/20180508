@@ -98,10 +98,10 @@ public class MainFrame extends JFrame {
         else if (jbtns[0][2].getText().equals(jbtns[1][2].getText()) && jbtns[0][2].getText().equals(jbtns[2][2].getText())&& !jbtns[0][2].getText().equals("")) {
             JOptionPane.showMessageDialog(MainFrame.this, jbtns[0][2].getText()+"Win");
         }
-        else if (jbtns[0][0].getText().equals(jbtns[1][1].getText()) && jbtns[0][0].getText().equals(jbtns[2][2].getText())&& !jbtns[1][1].getText().equals("")) {
+        else if (jbtns[0][0].getText().equals(jbtns[1][1].getText()) && jbtns[0][0].getText().equals(jbtns[2][2].getText())&& !jbtns[0][0].getText().equals("")) {
             JOptionPane.showMessageDialog(MainFrame.this, jbtns[1][1].getText()+"Win");
         }
-        else if (jbtns[0][2].getText().equals(jbtns[1][1].getText()) && jbtns[0][2].getText().equals(jbtns[2][0].getText())&& !jbtns[2][2].getText().equals("")) {
+        else if (jbtns[0][2].getText().equals(jbtns[1][1].getText()) && jbtns[0][2].getText().equals(jbtns[2][0].getText())&& !jbtns[0][2].getText().equals("")) {
             JOptionPane.showMessageDialog(MainFrame.this, jbtns[2][2].getText()+"Win");
         }
     }
